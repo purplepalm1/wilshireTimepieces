@@ -1,0 +1,285 @@
+@font-face {
+    font-family: "Gotham Light";
+    src: url("../fonts/Gotham_Light.otf") format("opentype");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url("../fonts/GothamBook.otf") format("opentype");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'StempelSchneidler';
+    src: url(../fonts/StempelSchneidler-Light.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 200
+}
+
+#headerAnim {
+    background: #fff;
+}
+
+#first-block {
+    box-sizing: initial;
+}
+
+header .bottom-part a {
+    color: #222222;
+}
+
+
+.media-block {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    height: 50vh;
+}
+
+.media-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.media-block p {
+    position: absolute;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    left: 50%;
+    font-family: "Gotham Book";
+    top: 50%;
+    color: #fff;
+    font-size: 3.3em;
+    max-width: 76rem;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    transform: translate(-50%, -50%);
+}
+
+.text-block {
+    text-align: center;
+    font-family: 'StempelSchneidler';
+    padding: 6rem 0;
+    font-size: 1.2em;
+    letter-spacing: 0.04em;
+}
+
+.text-block img {
+    width: 17%;
+    margin: 0 auto 1em;
+}
+
+.text-block h3 {
+    font-size: 1.3em;
+    font-family: "Gotham Light";
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.text-block p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 83%;
+}
+
+.text-block form {
+    width: 50%;
+    display: flex;
+    margin: 0vw auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row_inputs {
+    display: flex;
+    margin-bottom: 1vw;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.text-block form input,
+.text-block form textarea {
+    /* height: 2.5vw; */
+    padding-left: 0.7vw;
+    font-size: 1vw;
+    color: #000;
+    outline: none;
+    border: 0.1vw solid #33333317;
+    border-radius: 0.3vw;
+    transition: 0.4s;
+    width: 100%;
+}
+
+.text-block form input:focus,
+.text-block form textarea:focus {
+    border-left: 0.3vw solid #000;
+}
+
+.text-block form textarea {
+    height: 7vw;
+    padding-top: 0.5vw;
+}
+
+.text-block form input::placeholder {
+    color: #33333350;
+}
+
+.text-block form textarea::placeholder {
+    font-family: "Gotham Light";
+}
+
+.row_inputs label {
+    width: 48%;
+    text-align: left;
+    font-family: "Gotham Light";
+    font-size: 1.1vw;
+    color: #000
+}
+
+.text-block form input {
+    margin-top: 0.5vw;
+}
+
+.text-block form button {
+    margin-top: 1.5vw;
+}
+
+.text-block .h3 {
+    margin-bottom: 3vw;
+    font-size: 1.5vw;
+    margin-top: -1vw;
+    color: #000;
+    font-family: "Gotham Book";
+}
+
+
+@media only screen and (max-width: 768px) {
+    .text-block p {
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .text-block .h3 {
+        font-size: 1.9vw;
+    }
+    .row_inputs label {
+        font-size: 1.6vw;
+    }
+    .text-block form input, .text-block form textarea {
+        font-size: 1.4vw;
+    }
+    .text-block form textarea {
+        height: 14vw;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .media-block p {
+        max-width: 200rem;
+        font-size: 2.7em;
+    }
+    .text-block form {
+        width: 60%;
+    }
+    .text-block form > *{
+        margin-bottom: .9em;
+    }
+    .text-block .h3 {
+        font-size: 3vw;
+        margin-bottom: 1.2em;
+    }
+    .row_inputs label {
+        font-size: 2.5vw;
+    }
+    .text-block form input, .text-block form textarea {
+        font-size: 2.2vw;
+        border: 1px solid #bcbcbc;
+        border-radius: 1px;
+    }
+    .text-block form textarea {
+        height: 14vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .media-block p {
+        max-width: 200rem;
+        font-size: 2.5em;
+    }
+    
+    .text-block form {
+        width: 60%;
+    }
+    .text-block form > *{
+        margin-bottom: 1em;
+    }
+    .text-block .h3 {
+        font-size: 1.7rem;
+        margin-bottom: 1em;
+    }
+    .row_inputs label {
+        font-size: 3vw;
+    }
+    .text-block form input, .text-block form textarea {
+        font-size: 2.5vw;
+    }
+    .text-block form textarea {
+        height: 20vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .media-block {
+        height: 30vh;
+    }
+    .media_contact-us {
+        height: 30vh;
+    }
+    .media-block p {
+        font-size: 2em;
+    }
+    .text-block {
+        padding-top: 4.2rem;
+    }
+    .text-block form {
+        width: 75%;
+    }
+    .text-block form > * {
+        margin-bottom: .7em;
+    }
+    .text-block h3 {
+        font-size: 5vw;
+        margin-bottom: 1.3em;
+        padding: 0 1.6em;
+        margin-top: 0;
+    }
+    .row_inputs {
+        flex-direction: column;
+	}
+    .row_inputs label {
+        font-size: 1.15rem;
+        margin-bottom: .35em;
+        width: 100%;
+    }
+    .text-block form input, .text-block form textarea {
+        font-size: 1.15rem;
+        padding: .2rem .7rem;
+    }
+    .text-block form input {
+        padding: .5rem .7rem;
+    }
+    .text-block form textarea {
+        height: 30vw;
+    }
+    .text-block form .btn {
+        margin-top: 3.5vw;
+        font-size: 1.25rem;
+    }
+}

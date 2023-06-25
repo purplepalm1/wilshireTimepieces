@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'StempelSchneidler';
+    src: url(../fonts/StempelSchneidler-Light.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 200
+}
+
+#headerAnim {
+    background: #fff;
+}
+
+#first-block {
+    box-sizing: initial;
+}
+
+header .bottom-part a {
+    color: #222222;
+}
+
+.header-specs-page {
+    padding: 4em 0;
+}
+
+.header-specs-page .text-part {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.header-specs-page .title {
+    font-size: 2.5em;
+    letter-spacing: 0.01em;
+}
+
+.cards-row {
+    padding: 2em 0;
+    display: flex;
+    max-width: 60%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 3em 2%;
+    width: 29%;
+}
+
+.card a{
+    color: #222222;
+}
+.card .title {
+    margin-bottom: 1.7em;
+    font-size: 1.2em;
+}
+
+.card .description {
+    font-family: 'StempelSchneidler';
+}
+
+.card .price{
+    margin-top: 1.4em;
+    font-family: "Gotham Book";
+    font-size: 1.43em;
+    color: #999;
+    letter-spacing: 0.1em;
+}

@@ -1,0 +1,154 @@
+.image-block {
+    display: flex;
+    padding-top: 4em;
+    justify-content: center;
+}
+
+.image-place,
+.text-block-product {
+    width: 50%;
+}
+
+.image-place {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-place>img {
+    width: 80%;
+    height: auto;
+}
+
+.image-place>img:last-child {
+    display: none;
+}
+
+/*TEMTEMTEMTEMTEMT*/
+
+.text-block-product {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-block-product .title {
+    text-transform: uppercase;
+    font-size: 1.71em;
+    letter-spacing: 0.1em;
+    margin: 1em 0 0;
+    max-width: 60%;
+}
+
+.text-block-product .description {
+    margin: 0.5em 0;
+    font-family: 'StempelSchneidler';
+    font-weight: 200;
+    font-size: 1em;
+    letter-spacing: 0.041em;
+    max-width: 60%;
+}
+
+.text-block-product .price {
+    margin-top: .5em;
+    font-size: 1.43em;
+    font-family: "Gotham Book";
+    color: #222222;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+}
+
+.text-block-product select {
+    width: 60%;
+    outline: none;
+    text-transform: uppercase;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    padding: 13px;
+    border-bottom: none;
+    border-color: #00000062;
+}
+
+.text-block-product select:last-of-type {
+    border-bottom: 1px solid #00000062 !important;
+}
+
+
+.order-now {
+    width: 60%;
+    background: #5ac6ff;
+    border: 1px solid #5ac6ff;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 13px;
+    font-size: 14px;
+    transition: 0.4s;
+    color: #fff;
+    margin: 2em 0 0;
+}
+
+.order-now:hover {
+    background: #4ba5d6;
+}
+
+.bullet-points {
+    padding: 4em 0 2em;
+}
+
+.bullet-points .title,
+.bullet-points p.content {
+    color: #000;
+    background: transparent;
+}
+
+.bullet-points .point {
+    width: 25%;
+    margin: 0 1.5%;
+}
+
+.bullet-points .title {
+    letter-spacing: 0.035em;
+    font-size: 15px;
+    font-family: "Gotham Book";
+}
+
+.bullet-points .title br {
+    display: none;
+}
+
+.bullet-points p.content {
+    font-family: "Gotham Book";
+    color: #999;
+    line-height: 1.9;
+    font-size: 1em;
+    margin-top: 3px;
+}
+
+.smooth_block h1,
+.smooth_block p {
+    color: #222222;
+}
+
+.smooth_block div.content {
+    background: transparent;
+}
+
+.bg-blk .text-block.container {
+    padding: 4em 0;
+    width: 50%;
+    color: #fff;
+}
+
+.bg-blk .text-block.container h3 {
+    margin-bottom: 10px;
+}
+
+.bg-blk .text-block.container p {
+    margin: 10px auto;
+}
+
+.bg-blk .text-block.container img {
+    width: 90%;
+    margin: 30px auto;
+}
