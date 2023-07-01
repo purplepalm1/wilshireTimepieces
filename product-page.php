@@ -15,8 +15,8 @@
     <div class="bg-wht" id="first-block">
         <section class="image-block container">
             <div class="image-place">
-                <img src="./images/product/View-01-DarkBrown.jpg" alt="">
-                <img src="./images/product/View-02-DarkBrown.jpg" alt="">
+                <img src="./images/product/View-03.jpg" alt="">
+                <img src="./images/product/View-03.jpg" alt="">
             </div>
             <div class="text-block-product">
                 <h1 class="title">
@@ -74,40 +74,7 @@
                 <p>Wilshire Timepieces is not simply a watch company; it is a testament to the art of watchmaking, a dedication to quality, and a celebration of timeless elegance. We invite you to explore our meticulously crafted collection, where each watch tells a story of tradition, precision, and enduring style.</p>
             </section>
         </section>
-        <!-- <div class="smooth_block bg-grey">
-            <h1 class="txt-center second-heading font-book">THE WILSHIRE TIMEPIECES STORE</h1>
-            <div class="container">
-                <div class="content">
-                    <div class="point">
-                        <div class="img_holder">
-                            <img src="./images/Logo_single.png" alt="">
-                        </div>
-                        <p class="title">AFFORDABLE<br>
-                            PRICING</p>
-                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti libero,
-                            possimus quam labore adipisci.</p>
-                    </div>
-                    <div class="point">
-                        <div class="img_holder">
-                            <img src="./images/Logo_single.png" alt="">
-                        </div>
-                        <p class="title">PERSONAL<br>
-                            SERVICE</p>
-                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint, nulla
-                            aperiam aliquam quasi vel quis fugiat molestiae!</p>
-                    </div>
-                    <div class="point">
-                        <div class="img_holder">
-                            <img src="./images/Logo_single.png" alt="">
-                        </div>
-                        <p class="title">INTEREST-FREE<br>
-                            FINANCE</p>
-                        <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus ipsam aliquam
-                            dolorem totam placeat.</p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+
     </div>
     <?php include './footer.php'; ?>
     </body>
